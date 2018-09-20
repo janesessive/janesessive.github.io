@@ -1,0 +1,79 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
+  position: center;
+}
+
+
+hr {
+  max-width: 65px;
+  border-width: 2px;
+  border-color: #9E507B; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+.text-it {
+  color: rgba(255, 255, 255, 0.8);
+}
+header.hovsepian {
+  background-position: center;
+  background-image: url("dome.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.hovsepian hr {
+  margin-top: 300px;
+  margin-bottom: 20px; 
+}
+
+header.hovsepian h1 {
+  font-size: 3rem; 
+  text-align: center;
+  position: relative;
+  top: 15px;
+  margin-bottom: 1px;
+}
+
+header.hovsepian h2 {
+  font-size: 1rem; 
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.btn {
+  margin:auto;
+  display:block;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.btn-primary {
+  background-color: #9E507B !important;
+  border-color: #9E507B; 
+  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: #C281A4 !important;
+  border-color: #C281A4;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
